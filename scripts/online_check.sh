@@ -6,7 +6,7 @@
 # %sudo  ALL=(ALL) NOPASSWD: ALL
 
 SCRIPT_DIR=`cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P`
-ONLINE_CHECK=$(curl -s https://dashboard.xx.network/nodes/TI5OTiJ84KY-0TV9OfaP8V-AfxJ0M9wx81gM2Kd0gMUC | grep -o "offline")
+ONLINE_CHECK=$(curl -s https://dashboard-api.xx.network/v1/nodes/$NODE_DASHBOARD_ID | grep -o "offline")
 
 if [[ -z "$ONLINE_CHECK" ]]
 then
