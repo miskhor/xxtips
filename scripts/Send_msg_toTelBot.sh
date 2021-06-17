@@ -1,6 +1,6 @@
 #!/bin/bash
 
-telegram_bot_token="1702731795:AAGr5P-pRfxD_BF1rJlw-DYR8N9FTP8nyXk"
+telegram_bot_token="1896116453:AAEGuIWeuS0FRgr9IDeLP6te6V4F5VsYIDs"
 telegram_chat_id="75303718"
 
 Title="$1"
